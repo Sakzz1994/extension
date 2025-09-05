@@ -1861,10 +1861,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@keplr-wallet/proto-types@^0.12.188":
-  version "0.12.188"
-  resolved "https://registry.npmjs.org/@keplr-wallet/proto-types/-/proto-types-0.12.188.tgz"
-  integrity sha512-TY78nOsts4cc4et+oT1j/yd3SJMk2SuF42RzgQOdVt+NAxXPW6HysE8tq9cDBG9wj/JtMoZjDQzJezRiJNQEQA==
+"@keplr-wallet/proto-types@^0.12.263":
+  version "0.12.270"
+  resolved "https://registry.yarnpkg.com/@keplr-wallet/proto-types/-/proto-types-0.12.270.tgz#dd77c75e36783a6d79d7c80a6a8feee07edee77a"
+  integrity sha512-p9SDXJK6Y9rMAfU3qsXl1E0ZARVFSFHnhzNLl6ERdIAW6XlLQJMirRV0Gc4Mb6HkF4BJf5DROxU7nEkSS8w1kg==
   dependencies:
     long "^4.0.0"
     protobufjs "^6.11.2"
