@@ -1200,16 +1200,6 @@
   resolved "https://registry.npmjs.org/@bufbuild/protobuf/-/protobuf-2.2.3.tgz"
   integrity sha512-tFQoXHJdkEOSwj5tRIZSPNUuXK3RaR7T1nUrPgbYX1pUbvqqaaZAsfo+NXBPsz5rZMSKVFrgK1WL8Q/MSLvprg==
 
-"@cosmjs/amino@^0.33.0":
-  version "0.33.0"
-  resolved "https://registry.npmjs.org/@cosmjs/amino/-/amino-0.33.0.tgz"
-  integrity sha512-a4qnWGzuM2IrlkDTFQmU7bDd+wNIzyvfcRIZ43i00ZHvTEtrCcWopT94rIv/Zy6fdgkhQ3HWrsGVlIPDT/ibRw==
-  dependencies:
-    "@cosmjs/crypto" "^0.33.0"
-    "@cosmjs/encoding" "^0.33.0"
-    "@cosmjs/math" "^0.33.0"
-    "@cosmjs/utils" "^0.33.0"
-
 "@cosmjs/amino@^0.34.0":
   version "0.34.0"
   resolved "https://registry.yarnpkg.com/@cosmjs/amino/-/amino-0.34.0.tgz#07cf70a452720242201e45104c504855906c8c64"
@@ -1219,19 +1209,6 @@
     "@cosmjs/encoding" "^0.34.0"
     "@cosmjs/math" "^0.34.0"
     "@cosmjs/utils" "^0.34.0"
-
-"@cosmjs/crypto@^0.33.0":
-  version "0.33.0"
-  resolved "https://registry.npmjs.org/@cosmjs/crypto/-/crypto-0.33.0.tgz"
-  integrity sha512-kkt06t+cFW2XRGDGUZ0cVf5yoQ2OhZnubwbYbz3QXdyhf1qOXYVPRThfFPsko7dssr+e8Yy4OJKlh5SLA8DXTQ==
-  dependencies:
-    "@cosmjs/encoding" "^0.33.0"
-    "@cosmjs/math" "^0.33.0"
-    "@cosmjs/utils" "^0.33.0"
-    "@noble/hashes" "^1"
-    bn.js "^5.2.0"
-    elliptic "^6.5.4"
-    libsodium-wrappers-sumo "^0.7.11"
 
 "@cosmjs/crypto@^0.34.0":
   version "0.34.0"
@@ -1245,15 +1222,6 @@
     "@noble/hashes" "^1"
     bn.js "^5.2.0"
     libsodium-wrappers-sumo "^0.7.11"
-
-"@cosmjs/encoding@^0.33.0":
-  version "0.33.0"
-  resolved "https://registry.npmjs.org/@cosmjs/encoding/-/encoding-0.33.0.tgz"
-  integrity sha512-9z0g9mM7w5BISVVs8BK1Yp7KSQgNLGz2SBoWYOm4wODB/YcoitODgyRqECcuMZBXtd2sCyy2M1VLs9Z69BPZRQ==
-  dependencies:
-    base64-js "^1.3.0"
-    bech32 "^1.1.4"
-    readonly-date "^1.0.0"
 
 "@cosmjs/encoding@^0.34.0":
   version "0.34.0"
@@ -1272,31 +1240,12 @@
     "@cosmjs/stream" "^0.34.0"
     xstream "^11.14.0"
 
-"@cosmjs/math@^0.33.0":
-  version "0.33.0"
-  resolved "https://registry.npmjs.org/@cosmjs/math/-/math-0.33.0.tgz"
-  integrity sha512-B2uOgM12iuIhJWzGuAxGwO6zO+cI8Q4z7mVu7HgFrGJJTM1HtPTYgb55oMOuUN0OZ352MEEm5uAt8sA9jZQqbA==
-  dependencies:
-    bn.js "^5.2.0"
-
 "@cosmjs/math@^0.34.0":
   version "0.34.0"
   resolved "https://registry.yarnpkg.com/@cosmjs/math/-/math-0.34.0.tgz#0befac4584ca981c83f55952984f095cc7048272"
   integrity sha512-E/7dxu/hhbVEz1NNGJi+gPAadEtlk4N1ONm4CRgTnVWmPSLHNFgATF+UANAVUVAOfy6OpB0t94gAHRLYnEZYeA==
   dependencies:
     bn.js "^5.2.0"
-
-"@cosmjs/proto-signing@^0.33.0":
-  version "0.33.0"
-  resolved "https://registry.npmjs.org/@cosmjs/proto-signing/-/proto-signing-0.33.0.tgz"
-  integrity sha512-UHA92d/Siy3wnce/xhU4iagKrs6r8Ruacc0qeHj3mNrtuUH8f70cD7lzzClzI7wvRLcPprOY0YTeEzqGbPeBFw==
-  dependencies:
-    "@cosmjs/amino" "^0.33.0"
-    "@cosmjs/crypto" "^0.33.0"
-    "@cosmjs/encoding" "^0.33.0"
-    "@cosmjs/math" "^0.33.0"
-    "@cosmjs/utils" "^0.33.0"
-    cosmjs-types "^0.9.0"
 
 "@cosmjs/proto-signing@^0.34.0":
   version "0.34.0"
@@ -1356,11 +1305,6 @@
     cross-fetch "^4.1.0"
     readonly-date "^1.0.0"
     xstream "^11.14.0"
-
-"@cosmjs/utils@^0.33.0":
-  version "0.33.0"
-  resolved "https://registry.npmjs.org/@cosmjs/utils/-/utils-0.33.0.tgz"
-  integrity sha512-Y6glwHNlNjcOgwPg8YmNr1PSrNm307EhJVytFt8HmA/G7MRcIA+jIzCL0VlOrWGU4TrAOXvshM+oJZbTIldFRA==
 
 "@cosmjs/utils@^0.34.0":
   version "0.34.0"
