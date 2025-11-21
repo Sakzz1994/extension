@@ -51,7 +51,7 @@
     "@sentry/browser": "^6.19.7",
     "@sentry/react": "^7.48.0",
     "@sentry/tracing": "^6.19.7",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^6.0.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
@@ -154,7 +154,7 @@
     "webpack": "^5.64.4",
     "webpack-dev-server": "^4.6.0",
     "webpack-manifest-plugin": "^4.0.2",
-    "workbox-webpack-plugin": "^6.4.1",
+    "workbox-webpack-plugin": "^7.4.0",
     "zxcvbn": "^4.4.2"
   },
   "browserslist": {
